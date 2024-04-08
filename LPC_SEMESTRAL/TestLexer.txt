@@ -1,0 +1,13 @@
+program Fatorial;
+var
+   Res, Num : integer;
+begin 
+   Res := 1; 
+   readln(Num); 
+   while Num > 1 do 
+   begin
+      Res := Res * Num;
+      Num := Num - 1
+   end; 
+  writeln(Res) 
+end.
