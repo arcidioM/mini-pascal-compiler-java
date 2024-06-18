@@ -160,15 +160,17 @@ public class Tela_principal extends JFrame {
         }
         listaNumeros.setModel(modeloLista);
         listaNumeros.setBackground(new Color(240, 240, 240));
-        listaNumeros.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 14));
+        listaNumeros.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 16));
         listaNumeros.setBorder(BorderFactory.createMatteBorder(0, 0, 0, 1, Color.GRAY));
         listaNumeros.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-        listaNumeros.setFixedCellWidth(25); // Define a largura fixa para os números das linhas
+        listaNumeros.setFixedCellWidth(30); // Define a largura fixa para os números das linhas
         listaNumeros.setFixedCellHeight(areaTexto.getFontMetrics(areaTexto.getFont()).getHeight());
+        listaNumeros.setFixedCellHeight(22);
         scrollPane.setRowHeaderView(listaNumeros);
         add(scrollPane, BorderLayout.CENTER);
 
         areaTexto.setBorder(BorderFactory.createEmptyBorder(0, 5, 0, 0)); // Ajuste para alinhar com a numeração
+        areaTexto.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 16));
         areaTexto.getDocument().addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {

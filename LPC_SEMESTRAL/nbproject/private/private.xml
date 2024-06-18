@@ -3,9 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Djudju/Documents/NetBeansProjects/LPC_SEMESTRAL/src/model/Lexer.java</file>
-            <file>file:/C:/Users/Djudju/Documents/NetBeansProjects/LPC_SEMESTRAL/src/model/Token.java</file>
-            <file>file:/C:/Users/Djudju/Documents/NetBeansProjects/LPC_SEMESTRAL/src/view/Tela_principal.java</file>
+            <file>file:/C:/Users/Djudju/Documents/GitHub/mini-pascal-compiler-java/LPC_SEMESTRAL/src/model/Token.java</file>
+            <file>file:/C:/Users/Djudju/Documents/GitHub/mini-pascal-compiler-java/LPC_SEMESTRAL/src/model/Lexer.java</file>
+            <file>file:/C:/Users/Djudju/Documents/GitHub/mini-pascal-compiler-java/LPC_SEMESTRAL/src/view/Tela_principal.java</file>
         </group>
     </open-files>
 </project-private>
